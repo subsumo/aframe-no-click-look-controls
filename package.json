@@ -1,7 +1,7 @@
 {
-  "name": "naframe-orbit-controls-component",
-  "version": "1.0.0",
-  "description": "Orbiting Controls component for A-Frame VR",
+  "name": "aframe-no-click-look-controls",
+  "version": "1.0.4",
+  "description": "Intuitive controls for desktop A-frame experiences",
   "main": "index.js",
   "scripts": {
     "build": "browserify examples/main.js -o examples/build.js",
@@ -15,22 +15,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/subsumo/aframe-orbit-controls.git"
+    "url": "git+https://github.com/alexrkass/aframe-no-click-look-controls.git"
   },
   "keywords": [
     "aframe",
     "aframe-component",
-    "layout",
+    "camera",
+    "no-click",
     "aframe-vr",
     "vr",
     "aframe-layout",
     "mozvr",
     "webvr"
   ],
-  "author": "Jacob Friedman <jacob@subsumo.com>",
+  "author": "Alex Kass <alexrkass@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/subsumo/aframe-orbit-controls/issues"
+    "url": "https://github.com/alexrkass/aframe-no-click-look-controls/issues"
   },
   "homepage": "https://github.com/subsumo/aframe-orbit-controls#readme",
   "devDependencies": {
