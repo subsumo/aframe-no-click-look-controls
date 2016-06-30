@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>A-Frame No-Click Look Controls - Basic</title>
+    <script src="../build.js"></script>
+  </head>
+  <body>
+
+    <a-scene>
+      <a-camera  distance="1" no-click-look-controls="maxyaw:0.5π; maxpitch:0.2π;timebuffer:10000" wasd-controls-enabled=false position="0 0 0" ></a-camera>
+
+      <a-sphere id="target" position="0 0 1" radius="0.1" color="#EF2D5E"></a-sphere>
+
+      <a-sky src="https://upload.wikimedia.org/wikipedia/commons/8/83/Equirectangular_projection_SW.jpg"></a-sky>
+    </a-scene>
+
+  </body>
+</html>
