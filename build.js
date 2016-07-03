@@ -165,7 +165,7 @@ AFRAME.registerComponent('no-click-look-controls', {
   },
 
   onMouseMove: function (event) {
-    var pos = this.getMousePosition(event, this.canvasEl);
+    var pos = this.getMousePosition(event, document.body);
     var x = pos.x;
     var y = pos.y;
 
