@@ -53,7 +53,7 @@ AFRAME.registerComponent('no-click-look-controls', {
     var canvasEl = document.querySelector('a-scene').canvas;
 
     // Mouse Events
-    canvasEl.addEventListener('mousemove', this.onMouseMove.bind(this), true);
+    document.body.addEventListener('mousemove', this.onMouseMove.bind(this), true);
     canvasEl.addEventListener('mouseout', this.onMouseOut.bind(this), true);
     canvasEl.addEventListener('mouseover', this.onMouseOver.bind(this), true);
     // Touch events
